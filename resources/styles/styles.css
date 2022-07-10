@@ -12,7 +12,7 @@ h1 {
     margin: 0;
     width: 100%;
     font-family: Splash, sans-serif;
-    font-size: 5rem;
+    font-size: 20vh;
     height: 10rem;
     color: hsl(207, 100%, 82%);
     background-color: red; /* For browsers that do not support gradients */
