@@ -21,7 +21,8 @@ h1 {
 h1 span {
     position: relative;
     left: 2rem;
-    font-size: 10vh;
+    font-size: 8vh;
+    margin-right: 2rem;
 }
 
 h2 {
