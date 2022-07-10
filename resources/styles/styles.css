@@ -8,30 +8,28 @@ body {
 h1 {
     display: flex;
     align-items: center;
+    height: 15vh;
     padding: 0;
     margin: 0;
     width: 100%;
     font-family: Splash, sans-serif;
-    font-size: 6vw;
-    height: 10rem;
     color: hsl(207, 100%, 82%);
-    background-color: red; /* For browsers that do not support gradients */
+    background-color: hsl(240, 100%, 55%); /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, hsl(240, 100%, 55%) , hsl(207, 100%, 82%));
 }
 
 h1 span {
     position: relative;
     left: 2rem;
+    font-size: 10vh;
 }
 
 h2 {
     font-weight: bold;
-    font-size: 2.5rem;
     padding: 1vh 0;
     margin: 0;
     background-color: midnightblue;
     color: azure;
-    height: 4rem;
     display: flex;
     align-items: center;
     border-top: .25rem solid gray;
@@ -42,6 +40,7 @@ h2 {
 h2 span {
     position: relative;
     left: 2rem;
+    font-size: 5vh;
 }
 
 section {
