@@ -1,0 +1,58 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Raleway, Verdana, sans-serif;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: Splash, sans-serif;
+    font-size: 5rem;
+    height: 10rem;
+    color: hsl(207, 100%, 82%);
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, hsl(240, 100%, 55%) , hsl(207, 100%, 82%));
+}
+
+h1 span {
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+    background-color: midnightblue;
+    color: azure;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    border-top: .25rem solid gray;
+    border-bottom: .1rem solid black;
+    
+}
+
+h2 span {
+    position: relative;
+    left: 2rem;
+}
+
+section {
+    margin-left: 2rem;
+    font-family: 
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    position: relative;
+    margin: 0 0 .5rem 1rem;
+}
