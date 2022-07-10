@@ -26,15 +26,15 @@ h1 {
 
 h1 span {
     position: relative;
-    left: 5vw;
+    left: 2vw;
     font-size: 8vh;
     margin-right: .1rem;
 }
 
 h2 {
     font-weight: bold;
-    padding: 2vw 1vw 0 1vw;
     margin: 0;
+    height: 10vh;
     background-color: midnightblue;
     color: azure;
     display: flex;
@@ -46,13 +46,13 @@ h2 {
 
 h2 span {
     position: relative;
-    left: 10vw;
-    font-size: 2.5vh;
+    left: 2vw;
+    font-size: 5vh;
     padding-right: 8vw;
 }
 
 section {
-    margin-left: 2rem;
+    margin-left: 2vw;
 }
 
 h3 {
@@ -61,5 +61,5 @@ h3 {
 
 p {
     position: relative;
-    margin: 0 0 .5rem 1rem;
+    margin: 0 0 .5vh 1vw;
 }
