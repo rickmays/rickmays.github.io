@@ -26,8 +26,7 @@ h1 span {
 h2 {
     font-weight: bold;
     font-size: 2.5rem;
-    padding: 0;
-    margin: 0;
+    padding: 1rem;
     background-color: midnightblue;
     color: azure;
     height: 5rem;
@@ -45,7 +44,6 @@ h2 span {
 
 section {
     margin-left: 2rem;
-    font-family: 
 }
 
 h3 {
