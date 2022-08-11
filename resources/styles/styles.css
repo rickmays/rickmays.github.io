@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+.item {
+    padding: 8px;
+    background-color: white;
+    border: 4px solid tomato;
+    border-radius: 6px;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
