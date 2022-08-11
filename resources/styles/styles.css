@@ -1,11 +1,21 @@
 * {
     box-sizing: border-box;
 }
-.item {
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+button {
     padding: 8px;
     background-color: white;
+    border: 1px solid black;
+    flex-basis: 25%;
+    height: 100px;
+
+}
+.item {
+    background-color: white;
     border: 4px solid tomato;
-    border-radius: 6px;
 }
 .container {
     display: grid;
