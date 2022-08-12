@@ -11,30 +11,37 @@ button {
     border: 1px solid black;
     flex-basis: 25%;
     height: 100px;
-
-}
-.item {
-    background-color: white;
-    border: 4px solid tomato;
 }
 .container {
     display: grid;
     height: 100vh;
-    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-rows: .1fr .33fr 1fr .1fr;
 }
-
+nav.item {
+    margin-bottom: 30px;
+}
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 figure {
     visibility: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
 }
 .project-image {
-    position: absolute;
     max-width: 100%;
-    height: auto;
-    overflow: hidden;
+    max-height: 100%;
+    margin: auto;
+    padding-top: 25px;
 }
 figcaption {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+}
+p {
+    padding: 2px;
 }
