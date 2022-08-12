@@ -20,5 +20,15 @@ button {
 .container {
     display: grid;
     height: 100vh;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 1fr 8fr 1fr;
+}
+.project-image {
+    max-width: 100%;
+    height: auto;
+}
+figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
