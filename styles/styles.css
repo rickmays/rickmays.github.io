@@ -1,6 +1,23 @@
 * {
     box-sizing: border-box;
 }
+html {
+    font-size: 16px ;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    font-family: 'Roboto Slab';
+    font-size: 1.5rem;
+}
+h2 {
+    font-family: 'Gruppo';
+    font-size: 1.2rem;
+    font-weight: 400;
+}
 .buttons {
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +37,7 @@ button {
     grid-template-rows: .1fr .33fr 1fr .1fr;
 }
 nav.item {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .image-container {
     display: flex;
