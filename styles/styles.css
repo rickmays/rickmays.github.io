@@ -4,13 +4,15 @@
 .buttons {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
 }
 button {
     padding: 8px;
     background-color: white;
     border: 1px solid black;
-    flex-basis: 25%;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 .container {
     display: grid;
