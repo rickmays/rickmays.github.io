@@ -55,6 +55,7 @@ button:hover {
     display: grid;
     height: 100vh;
     grid-template-rows: auto auto 1fr auto;
+    justify-content: center;
 }
 main {
     display: flex;
